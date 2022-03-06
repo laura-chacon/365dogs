@@ -16,10 +16,10 @@ export default function App() {
   } else {
     return (
       <DatabaseConnectionProvider>
-      <SafeAreaProvider>
-        <Navigation colorScheme={colorScheme} />
-        <StatusBar />
-      </SafeAreaProvider>
+        <SafeAreaProvider>
+          <Navigation colorScheme={colorScheme} />
+          <StatusBar />
+        </SafeAreaProvider>
       </DatabaseConnectionProvider>
     );
   }
